@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: rgb(19, 19, 19);
+            color: rgb(255, 255, 255);
+            font-family: Arial, sans-serif;
+        }
+        .top {
+            display: flex;
+            background-color: rgb(0, 0, 0);
+            height: 150px;
+            align-items: center;
+            padding: 0 20px;
+        }
+        .moviemaze {
+            margin-right:100px;
+            margin-left: 100px;
+        }
+        .search input {
+            width: 700px;
+            height: 60px;
+            background-color: rgb(31, 22, 13);
+            border: rgb(255, 255, 255) 3px solid;
+            color: white;
+            font-size: 18px;
+            padding-left: 20px;
+        }
+        .button button {
+            height: 67px;
+            width: 100px;
+            background-color: rgb(31, 22, 13);
+            color: rgb(85, 76, 67);
+            border: 3px white solid;
+            cursor: pointer;
+            font-size: 16px;
+            
+        }
+        .navbar {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 130px;
+            padding: 20px 0;
+            background-color: rgb(31, 31, 31);
+            position: fixed;
+            top: 175px;
+            bottom: 0;
+        }
+        .navbar a {
+            margin: 20px 0;
+            text-align: center;
+        }
+        .navbar img {
+            max-height: 80px;
+        }
+        .navbar h6 {
+            margin: 5px 0;
+            color: rgb(139, 138, 138);
+            font-size: 20px;
+            text-align: center;
+        }
+        .content {
+            margin-left: 180px;
+            padding: 20px;
+        }
+        .grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .grid img {
+            border-radius: 15px;
+            width: 200px;
+            height: 300px;
+            object-fit: cover;
+        }
+    </style>
+    <title>MovieMaze</title>
+</head>
+<body>
+    <div class="top">
+        <div class="moviemaze"><a href="project.html"><img src="./photos/-MovieMaze-7-25-2024.png" height="100px" width="350px" alt="MovieMaze Logo"></a></div>
+        <div class="search"><input type="text" placeholder="        Search..."></div>
+        <div class="button"><button>Search</button></div>
+    </div>
+    <header>
+        <nav class="navbar">
+            <a href="#"><img src="./photos/chimney-home-icon-transparent-1-removebg-preview.png" alt="Home"></a>
+            <h6>Home</h6>
+            <a href="#"><img src="./photos/movies__1_-removebg-preview.png" alt="Movies"></a>
+            <h6>Movies</h6>
+            <a href="#"><img src="./photos/png-transparent-computer-icons-film-movie-projector-action-movie-angle-text-rectangle-thumbnail-removebg-preview.png" alt="TV Shows"></a>
+            <h6>Series</h6>
+        </nav>
+    </header>
+    <div class="content">
+        <div class="grid">
+            <a href="https://ge.movie/movie/8887/joker"><img src="./photos/joker.jpg" alt="Joker"></a>
+            <a href="https://ge.movie/serial/473/cobra-kai"><img src="./photos/cobra.jpg" alt="Cobra Kai"></a>
+            <a href="https://ge.movie/movie/7714/mission-impossible-fallout"><img src="./photos/Screenshot 2024-07-25 220304.png" alt="impossible 6"></a>
+            <a href="https://ge.movie/movie/5758/the-impossible"><img src="./photos/Screenshot 2024-07-25 220412.png" alt="impossible"></a>
+            <a href="https://ge.movie/movie/49459/bad-boys-ride-or-die"><img src="./photos/Screenshot 2024-07-25 220519.png" alt="bad boys ride or die"></a>
+            <a href="https://ge.movie/movie/49417/the-garfield-movie"><img src="./photos/Screenshot 2024-07-25 220648.png" alt="the garfield"></a>
+            <a href="https://ge.movie/movie/49407/kingdom-of-the-planet-of-the-apes"><img src="./photos/Screenshot 2024-07-25 221050.png" alt="kingdom of planet of the apes"></a>
+            <a href="https://ge.movie/movie/7717/the-dark-tower"><img src="./photos/Screenshot 2024-07-25 232316.png" alt="the dark tower"></a>
+            <a href="https://theflixertv.to/tv/watch-breaking-bad-full-39506"><img src="./photos/Screenshot 2024-07-27 205457.png" alt="breaking bad"></a>
+            <a href="https://ge.movie/serial/49049/secret-invasion"><img src="./photos/Screenshot 2024-07-27 205710.png" alt="secret invasion"></a>
+            <a href="https://ge.movie/movie/1779/first-blood"><img src="./photos/Screenshot 2024-07-27 205840.png" alt="rembo"></a>
+            <a href="https://ge.movie/movie/4590/the-mechanic"><img src="./photos/Screenshot 2024-07-27 210517.png" alt="the mechanic"></a>
+            <a href="https://ge.movie/movie/49410/kung-fu-panda-4"><img src="./photos/Screenshot 2024-07-27 211004.png" alt="kung fu panda"></a>
+            <a href="https://ge.movie/movie/1783/blood-diamond"><img src="./photos/Screenshot 2024-07-27 211247.png" alt="blood diamond"></a>
+            <a href="https://ge.movie/movie/1780/rambo-first-blood-part-ii"><img src="./photos/Screenshot 2024-07-27 210211.png" alt="rembo"></a>
+            <a href="https://ge.movie/movie/49472/the-front-runner"><img src="./photos/Screenshot 2024-07-27 211054.png" alt="the front runner"></a>
+            <a href="https://ge.movie/serial/48851/the-last-of-us"><img src="./photos/Screenshot 2024-07-27 210907.png" alt="the last of us"></a>
+            <a href="https://ge.movie/movie/2488/rambo"><img src="./photos/Screenshot 2024-07-27 210245.png" alt="rembo"></a>
+            <a href="https://ge.movie/movie/7046/the-revenant"><img src="./photos/Screenshot 2024-07-27 210818.png" alt="the revenant"></a>
+            <a href="https://ge.movie/movie/4004/crank-high-voltage"><img src="./photos/Screenshot 2024-07-27 210648.png" alt="crank"></a>
+            <a href="https://ge.movie/movie/1781/rambo-iii"><img src="./photos/Screenshot 2024-07-27 210324.png" alt="rembo"></a>
+        </div>
+    </div>
+</body>
+</html>
